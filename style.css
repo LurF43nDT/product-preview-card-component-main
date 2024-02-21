@@ -17,7 +17,14 @@
 
 }
 #productimg{
-    
+
+}
+#maindiv{
+    background-color: color(hsl(30, 38%, 92%));
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-direction: row;
 }
 .Font-frau{font-family: "Fraunces", serif;}
 .Font-mont{font-family: "Montserrat", sans-serif;}
