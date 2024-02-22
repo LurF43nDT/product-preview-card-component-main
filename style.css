@@ -17,7 +17,9 @@
 
 }
 #productimg{
-
+display: flex;
+justify-content: space-between;
+height: 500px;
 }
 #maindiv{
     background-color: color(hsl(30, 38%, 92%));
