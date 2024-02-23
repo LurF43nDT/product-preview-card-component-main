@@ -1,32 +1,63 @@
+body{
+
+}
+
 #Perfume{
 
 }
+
 #Overskrift{
 
 }
+
 #Infotxt{
 
 }
+
 #Mainprice{
 
 }
+
 #Price{
 
 }
-#CartButton{
 
-}
-#productimg{
+#CartButton{
+background-color: hsl(158, 36%, 37%);
+border: none;
+color: hsl(30, 38%, 92%);
+width: 50%;
+height: 50px;
+font-size: 16px;
+border-radius: 10px;
+font-weight: 700;
 display: flex;
-justify-content: space-between;
-height: 500px;
+justify-content: center;
+align-items: center;
+flex-direction: row;
 }
+
+
+#productimg{
+box-sizing: border-box;    
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+height: 100vh;
+border-radius: 10px;
+}
+
 #maindiv{
-    background-color: color(hsl(30, 38%, 92%));
+    background-color: hsl(30, 38%, 92%)
+    margin: 2%;
+    padding: 2%;
+    box-sizing: border-box;
     display: flex;
     justify-content: space-around;
-    align-items: stretch;
+    align-items: center;
     flex-direction: row;
 }
+
 .Font-frau{font-family: "Fraunces", serif;}
 .Font-mont{font-family: "Montserrat", sans-serif;}
